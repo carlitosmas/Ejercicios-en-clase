@@ -1,0 +1,11 @@
+var1=int(input("Ingrese su edad:"))
+if var1>0:
+    if var1<=11:
+        print("Es un niño")
+    elif var1>=11 and var1<18:
+        print("Es un adolecente")
+    else:
+        print("es un adulto")
+else:
+    print("El valor es negativo")
+        

@@ -1,0 +1,6 @@
+lst1=["azul", "amarillo", "verde", "rojo", "blanco"]
+var1=input("Ingrese el color:")
+if var1 in lst1:
+    print(f"El color{var1}es valido")
+else:
+    print(f"El color {var1} no es valido")

@@ -1,0 +1,11 @@
+var1=int(input("Ingrese su edad:"))
+if var1>0 and var1<=11:
+    print("Ninez")
+elif var1>12 and var1<18:
+        print("Adolecente")
+elif var1>18 and var1<45:
+        print("Adultez Joven")
+elif var1>=45 and var1<=100:
+        print("Adultez")
+else:
+    print("Dato no valido")

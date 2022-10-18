@@ -1,0 +1,14 @@
+num1=int(input("Ingrese el numero 1:"))
+num2=int(input("Ingrese el numero 2:"))
+num3=int(input("Ingrese el numero 3:"))
+num4=int(input("Ingrese el numero 4:"))
+num5=int(input("Ingrese el numero 5:"))
+lst1=[num1,num2,num3,num4,num5]
+cntrl1=0
+suma=0
+while cntrl1<=5:
+    print(f"El numero {cntrl1+1} es {lst1[cntrl1]}")
+    suma+=lst1[cntrl1]
+    cntrl1+=1    
+print("El promedio es",(suma/len(lst1)))
+    
